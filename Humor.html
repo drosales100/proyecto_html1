@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<!--comentario-->
 <html lang="en">
-  <!--indica inicio-->
-  <head>
-    <!--etiqueta cabecera-->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href=".STYLES/main.css" />
-  </head>
-  <body>
-    <!--Header!!!-->
-    <header style="background-color:hsl(0, 100%, 50%)">
-      <h1>LOGO</h1>
-      <nav>
-        <ul style="background-color:hsla(0, 1%, 65%, 0.801)">
-          <li>
-            <a href="Deportes.html">Deportes</a>
-          </li>
-          <li>
-            <a href="Humor.html">Humor</a>
-          </li>
-          <li>
-            <a href="Espectaculo.html">Espectaculos</a>
-          </li>
-          <li>
-            <a href="Contacto.html">Contacto</a>
-          </li>        
-        </ul>
-      </nav>
-    </header>
+    <link rel="stylesheet" type="text/css" href="./STYLES/main.css">
+    <link rel="shortcut icon" href="./IMAGES/descarga.jpg" type="image/x-icon">
+</head>
+<body>
+  <!--Header-->
+  <header>
+    <table style="width: 100%" border="0" cellspacing="0" cellpadding="0" bgcolor="red">
+        <tr style="height:100px;">
+            <td width="50%"><a href="./Index.html"><img src="./IMAGES/logo.png" alt=""></td></a>            
+            <td align="center" width="50%">
+                <nav id="menu">
+                    <ul style="background-color:hsla(0, 1%, 65%, 0.801)">
+                        <li>
+                          <a href="Deportes.html">Deportes</a>                          
+                        </li>
+                        <li class="barra">|</li>
+                        <li>
+                          <a href="Humor.html">Humor</a>
+                        </li>
+                        <li class="barra">|</li>
+                        <li>
+                          <a href="Espectaculo.html">Espectaculos</a>
+                        </li>
+                        <li class="barra">|</li>
+                        <li>
+                          <a href="Contacto.html">Contacto</a>
+                        </li>        
+                      </ul>
+                </nav>
+            </td>            
+        </tr>       
+    </table>
+  </header>
 
     <main>
       <aside>
@@ -45,9 +52,7 @@
             </ol>
           </div>
         </div>
-      </aside>
-      
-
+      </aside>    
       <section>
         <p><h1>Humor<h1></p>
         <p><h3>Picaro<h3></p>
@@ -114,13 +119,21 @@
           </section>
       </section>
     </main>
-    <footer style="background-color:hsl(0, 100%, 50%)">
-      <div>
-        <p>Todos los derechos reservados - 2021</p> 
-      </div>  
-      <div>
-        <p>Desarrollado por CodiGO</p> 
-      </div>
+    <!--Footer-->
+    <footer>
+      <table style="width: 100%" >
+        <tr>
+          <td width="50%">
+            <div>
+              <p>Todos los derechos reservados - 2021</p> 
+            </div>  
+          <td align="right" width="50%">        
+            <div>
+              <p>Desarrollado por CodiGO</p> 
+            </div>
+          </td> 
+        </tr>
+      </table>  
     </footer>
   </body>
 </html>
